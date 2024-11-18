@@ -1,16 +1,19 @@
-## Hi there 👋
+# newaF
 
-<!--
-**Augmented-Reality-App/Augmented-Reality-App** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Built with [A-Frame](https://aframe.io), a web framework for building virtual reality experiences. Make WebVR with HTML and Entity-Component. Works on Vive, Rift, desktop, mobile platforms.
 
-Here are some ideas to get you started:
+Click and drag on desktop. Open it on a smartphone and use the device motion sensors. Or [plug in a VR headset](https://webvr.rocks)!
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Getting Started
+
+Run the docker start command to start a server at localhost:80
+```
+make start
+```
+
+If you don't have Make available then run the docker command directly
+```
+docker-compose up -d
+```
+
+Visit the website at [http://localhost:3000](http://localhost:3000)
